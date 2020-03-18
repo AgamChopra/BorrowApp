@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>KrabCloud</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="white"/>
+</head>
+<body class="fullscreen">
+  <div class="topnav">
+      <ul>
+          <li><a href="index.html"><i class="fa fa-home" style="font-size: 25px"></i></a></li>
+          <li><a href="#profile" class="popup"><i class="fa fa-user" style="font-size: 25px"></i></a></li>
+      </ul>
+  </div>
+  <div class ="item-list">
+    <form action="listed.html">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="legal first name"><br><br>
+        
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="legal last name"><br><br>
+
+        <label for="id">KrabCloud ID:</label><br>
+        <input type="id" id="fname" name="id" placeholder="unique ID under profile"><br><br>
+        
+        <label for="iname">Item name:</label><br>
+        <input type="text" id="iname" name="iname" placeholder="item name"><br><br>
+
+        <label for="image">Upload Item Image</label><br>
+        <input type="image" value="image"><br><br>
+        
+        <label for="tags">Rental price:</label><br>
+        <input type="number" id="rent" name="rent" placeholder="price in $ per day"><br><br>
+        
+        <label for="tags">Selling price:</label><br>
+        <input type="number" id="sell" name="sell" placeholder="price in $"><br><br>
+        
+        <input type="radio" id="rent" name="listing">
+        <label for="rent">Rent</label><br>
+        <input type="radio" id="sell" name="listing">
+        <label for="sell">Sell</label><br>
+        <input type="radio" id="both" name="listing">
+        <label for="both">Both</label><br><br>
+        <a href="#"><input type="submit" value="Submit"></a>
+      </form>
+    <div class = "cc">
+    <p>&copy 2020, KrabCloud.com, Inc.</p>
+    </div>
+  </div>
+  <script src="js/dropdown.js"></script> 
+</body>
+</html>
