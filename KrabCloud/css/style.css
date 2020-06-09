@@ -105,10 +105,12 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    font-family: sans-serif;
   }
   .item {
     text-align: center;
-    font-size: 80%;
+    font-size: 90%;
+    font-weight: bold;
     height: 45%;
     width: 240px;
     padding: 10px;
@@ -117,6 +119,7 @@ body {
     margin-left: 2.5%;
     margin-right: 2.5%;
     border-radius: 25px;
+    background-image: radial-gradient(white, rgb(255, 211, 89));
   }
   .item img{
     width: 140px;
@@ -130,25 +133,30 @@ body {
    }
   .sponsored {
     text-align: center;
-    font-size: 80%;
+    font-size: 90%;
+    font-weight: bold;
     height: 45%;
     width: 240px;
     padding: 10px;
-    border: 3px solid rgb(17, 164, 209);
+    border: 3px solid rgb(255, 211, 89);
     margin-bottom: 4%;
     margin-left: 2.5%;
     margin-right: 2.5%;
     border-radius: 25px;
+    background-image: radial-gradient(rgb(255, 240, 198, 0.9), rgb(255, 211, 89,0.9)),url(/KrabCloud/img/verified.png);
+    background-size: contain;
+    color: black;
   }
   .sponsored img{
     width: 140px;
     height: 140px;
     border-radius: 25%;
-    border: 2px solid rgb(17, 164, 209);
+    border: 2px solid rgb(255, 211, 89);
   }
   .sponsored:hover{
-    color: white;
-    background: rgb(17, 164, 209);
+    color: rgb(0, 0, 0);
+    background-image: radial-gradient(rgb(255, 211, 89,0.9), rgb(255, 211, 89,0.9)),url(/KrabCloud/img/verified.png);
+    background-size: contain;
     }
   .next-previous{
     text-align: center;
