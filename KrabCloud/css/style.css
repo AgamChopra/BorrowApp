@@ -108,7 +108,7 @@ body {
   }
   .item {
     text-align: center;
-    font-size: 65%;
+    font-size: 80%;
     height: 45%;
     width: 240px;
     padding: 10px;
@@ -116,17 +116,39 @@ body {
     margin-bottom: 4%;
     margin-left: 2.5%;
     margin-right: 2.5%;
-    border-radius: 25px
+    border-radius: 25px;
   }
   .item img{
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
     border-radius: 25%;
     border: 2px solid rgb(255, 211, 89);
   }
   .item:hover{
     color: white;
     background: rgb(255, 211, 89);
+   }
+  .sponsored {
+    text-align: center;
+    font-size: 80%;
+    height: 45%;
+    width: 240px;
+    padding: 10px;
+    border: 3px solid rgb(17, 164, 209);
+    margin-bottom: 4%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    border-radius: 25px;
+  }
+  .sponsored img{
+    width: 140px;
+    height: 140px;
+    border-radius: 25%;
+    border: 2px solid rgb(17, 164, 209);
+  }
+  .sponsored:hover{
+    color: white;
+    background: rgb(17, 164, 209);
     }
   .next-previous{
     text-align: center;
